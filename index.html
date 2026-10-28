@@ -293,6 +293,7 @@ ol.seq li .tx{min-width:0}
 @keyframes blink{50%{opacity:1}}
 
 /* collapsible criteria */
+.reglist{list-style:none;margin:0;padding:0;display:grid;gap:8px}.reglist a.dl{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border:1.5px solid var(--line);border-radius:14px;text-decoration:none;color:inherit;background:var(--surface)}.reglist a.dl:hover{border-color:var(--crimson);background:var(--blush)}.reglist .sub{font-size:13px;opacity:.75}
 .critbox{background:var(--surface);border:1.5px solid var(--line);border-radius:22px;box-shadow:var(--shadow)}
 .critbox[open]{border-color:var(--crimson)}
 .critbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:16px 18px;border-radius:22px}
@@ -714,6 +715,21 @@ ol.inl{display:flex;flex-direction:column;gap:4px}
         <button class="crit" type="button" data-kind="직위승진" data-era="new"><span class="era new">신기준</span><strong>직위승진</strong><span class="sub">2024.09.01 이후 임용된 교원</span><span class="go">기본요건 보기 →</span></button>
         <button class="crit wide" type="button" data-kind="정년보장" data-era="none"><span class="era ten">정년보장임용</span><strong>정년보장임용</strong><span class="sub">전임교원 임용 5년 이후 · 교수 직위</span><span class="go">기본요건 보기 →</span></button>
       </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="block" aria-label="[참고사항] 교원업적평가 규정">
+      <details class="critbox regbox">
+        <summary><span class="badge">4</span><span class="ct">[참고사항] 교원업적평가 규정</span><span class="chev" aria-hidden="true"></span></summary>
+        <div class="crit-body">
+          <p class="hint">관련 규정 전문을 PDF로 내려받을 수 있습니다.</p>
+          <ul class="reglist">
+          <li><a class="dl" href="files/reg-1-faculty-evaluation.pdf" download="1. 교원업적평가 규정(고려대학교).pdf"><strong>교원업적평가 규정</strong><span class="sub">[3-2-18] · 고려대학교 규정 (PDF)</span></a></li>
+          <li><a class="dl" href="files/reg-2-paper-requirements.pdf" download="2. 학술논문 요건 시행세칙.pdf"><strong>재임용·직위승진 등을 위한 학술논문 요건 시행세칙</strong><span class="sub">[3-2-18b] · 고려대학교 규정 (PDF)</span></a></li>
+          <li><a class="dl" href="files/reg-3-med-evaluation-bylaw.pdf" download="3. 의과대학 교원업적평가 내규.pdf"><strong>의과대학 교원업적평가 내규</strong><span class="sub">[4-22] · 의과대학 규정 (PDF)</span></a></li>
+          <li><a class="dl" href="files/reg-4-threshold-step-bylaw.pdf" download="4. 의과대학 문턱호봉 승급 내규.pdf"><strong>의과대학 문턱호봉 승급 내규</strong><span class="sub">[4-20] · 의과대학 규정 (PDF)</span></a></li>
+          </ul>
         </div>
       </details>
     </section>
